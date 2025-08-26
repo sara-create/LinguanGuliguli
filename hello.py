@@ -21,7 +21,7 @@ def main():
 
     model = nn.Linear(10, 1)
     model.optimizer = torch.optim.SGD(model.parameters(), 0.01)
-    #data = [{"x": torch.randn(10), "y": torch.randn(1)} for i in range(100)]
+    # data = [{"x": torch.randn(10), "y": torch.randn(1)} for i in range(100)]
     print("done")
 
 
